@@ -1,7 +1,6 @@
 import copy
 
 def attack(i, j, k):
-    global cnt
     s = set()
     for p in [i, j, k]:
         maxDist = float('inf')
@@ -20,9 +19,9 @@ def attack(i, j, k):
             s.add(rc)
     for r, c in s:
         C[r][c] = 0
-    cnt += len(s)
+    return len(s)
 
-def lotation():
+def next():
     for r in range(N - 2, -1, -1):
         for c in range(M):
             C[r + 1][c] = C[r][c]
@@ -36,9 +35,9 @@ for i in range(M - 2):
     for j in range(i + 1, M - 1):
         for k in range(j + 1, M):
             C = copy.deepcopy(A)
-            cnt = 0
+            score = 0
             for _ in range(N):
-                attack(i, j, k)
-                lotation()
-            res = max(res, cnt)
+                score += attack(i, j, k)
+                next()
+            res = max(res, score)
 print(res)
