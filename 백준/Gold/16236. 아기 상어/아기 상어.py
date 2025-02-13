@@ -15,7 +15,6 @@ res = 0
 while True:
     minDist = float('inf')
     feedPoint = [float('inf'), float('inf')]
-
     q = deque()
     q.append((sharkR, sharkC, 0))
     vst = [[False for _ in range(N)] for _ in range(N)]
