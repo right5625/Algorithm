@@ -18,12 +18,7 @@ public class Main {
 		for (int i = 0; i < N; i++) {
 			A[i] = Math.max(A[i] - B, 0);
 			result++;
-			if (A[i] > 0) {
-				result += A[i] / C;
-				if (A[i] % C != 0) {
-					result++;
-				}
-			}
+			result += A[i] % C == 0 ? A[i] / C : A[i] / C + 1;
 		}
 		System.out.println(result);
 	}
