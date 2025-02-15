@@ -33,8 +33,8 @@ while True:
                             vst[mr][mc] = True
                             q.append((mr, mc))
                             if B[r][c] == B[mr][mc]:
-                                B[mr][mc] = -1
-                B[r][c] = -1
+                                B[mr][mc] = -2
+                B[r][c] = -2
                 if maxCnt < cnt:
                     maxCnt = cnt
                     rainbowMaxCnt = rainbowCnt
@@ -69,7 +69,7 @@ while True:
     for r in range(N):
         for c in range(N):
             B[r][c] = A[c][N - 1 - r]
-    A = copy.deepcopy(B)
+    A = B
     for r in range(N - 2, -1, -1):
         for c in range(N):
             if A[r][c] >= 0:
