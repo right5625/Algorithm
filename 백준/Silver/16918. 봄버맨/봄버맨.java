@@ -26,7 +26,7 @@ public class Main {
 			ArrayList<int[]> list = new ArrayList<>();
 			int[] dr = {-1, 1, 0, 0};
 			int[] dc = {0, 0, -1, 1};
-			for (int s = 2; s <= N; s++) {
+			for (int s = 2; s <= N % 4 + 4; s++) {
 				if (s % 2 == 0) {
 					for (int i = 0; i < R; i++) {
 						for (int j = 0; j < C; j++) {
