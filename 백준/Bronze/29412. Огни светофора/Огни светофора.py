@@ -4,7 +4,7 @@ def calculate(g, gb, y, r, ry):
     rem = T % S
     red = full * (r + ry)
     yellow = full * (y + ry)
-    green = full * (g + gb / 2)
+    green = full * (g + gb // 2)
     time = 0
     if rem > 0:
         if time + g <= rem:
@@ -14,10 +14,10 @@ def calculate(g, gb, y, r, ry):
             green += rem - time
             return int(red), int(yellow), int(green)
         if time + gb <= rem:
-            green += gb / 2
+            green += gb // 2
             time += gb
         else:
-            green += (rem - time) / 2
+            green += (rem - time) // 2
             return int(red), int(yellow), int(green)
         if time + y <= rem:
             yellow += y
