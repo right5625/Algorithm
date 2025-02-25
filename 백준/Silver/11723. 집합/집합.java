@@ -16,7 +16,7 @@ public class Main {
         	} else if (s.equals("remove")) {
         		set.remove(Integer.parseInt(st.nextToken()));
         	} else if (s.equals("check")) {
-        		bw.append(set.contains(Integer.parseInt(st.nextToken())) ? "1\n" : "0\n");
+        		bw.write(set.contains(Integer.parseInt(st.nextToken())) ? "1\n" : "0\n");
         	} else if (s.equals("toggle")) {
         		int x = Integer.parseInt(st.nextToken());
         		if (!set.remove(x)) {
