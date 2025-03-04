@@ -23,16 +23,11 @@ public class Main {
 		StringTokenizer st;
 		N = Integer.parseInt(br.readLine());
 		int[][] A = new int[N][N];
+		int max = 0;
 		for (int i = 0; i < N; i++) {
 			st = new StringTokenizer(br.readLine(), " ");
 			for (int j = 0; j < N; j++) {
 				A[i][j] = Integer.parseInt(st.nextToken());
-			}
-		}
-		
-		int max = 0;
-		for (int i = 0; i < N; i++) {
-			for (int j = 0; j < N; j++) {
 				max = Math.max(max, A[i][j]);
 			}
 		}
