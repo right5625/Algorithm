@@ -8,6 +8,8 @@
 
 [2615 오목](https://www.acmicpc.net/problem/2615) : 반례
 
+[4855 Tire Dimensions](https://www.acmicpc.net/problem/4855) :  번역 이슈
+
 [17281 ⚾](https://www.acmicpc.net/problem/17281) : 시간 초과
 
 [27240 Электричка](https://www.acmicpc.net/problem/27240) : 번역 이슈
