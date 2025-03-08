@@ -10,6 +10,8 @@
 
 [4855 Tire Dimensions](https://www.acmicpc.net/problem/4855) :  번역 이슈
 
+[5790 Log Books](https://www.acmicpc.net/problem/5790) : 번역 이슈
+
 [17281 ⚾](https://www.acmicpc.net/problem/17281) : 시간 초과
 
 [27240 Электричка](https://www.acmicpc.net/problem/27240) : 번역 이슈
