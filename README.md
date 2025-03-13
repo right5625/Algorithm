@@ -12,6 +12,8 @@
 
 [5790 Log Books](https://www.acmicpc.net/problem/5790) : 번역 이슈
 
+[7131 Õhne vanaraamatupood](https://www.acmicpc.net/problem/7131) : 번역 이슈
+
 [13682 Loop Musical](https://www.acmicpc.net/problem/13682) : 번역 이슈
 
 [17281 ⚾](https://www.acmicpc.net/problem/17281) : 시간 초과
