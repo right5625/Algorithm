@@ -1,0 +1,1 @@
+print(len([1 for _ in range(int(input())) if input()[0] == 'C']))
