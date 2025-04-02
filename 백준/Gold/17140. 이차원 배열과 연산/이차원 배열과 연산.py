@@ -11,11 +11,7 @@ while res < 101:
     if rSize >= cSize:
         maxLength = 0
         for i in range(rSize):
-            s = set()
-            for j in range(cSize):
-                if A[i][j] != 0:
-                    s.add(A[i][j])
-            maxLength = max(maxLength, len(s) * 2)
+            maxLength = max(maxLength, len(set(A[i][j] for j in range(cSize) if A[i][j] != 0)) * 2)
         B = [[0] * maxLength for _ in range(rSize)]
         for i in range(rSize):
             dic = defaultdict(int)
@@ -30,11 +26,7 @@ while res < 101:
     else:
         maxLength = 0
         for j in range(cSize):
-            s = set()
-            for i in range(rSize):
-                if A[i][j] != 0:
-                    s.add(A[i][j])
-            maxLength = max(maxLength, len(s) * 2)
+            maxLength = max(maxLength, len(set(A[i][j] for i in range(rSize) if A[i][j] != 0)) * 2)
         B = [[0] * cSize for _ in range(maxLength)]
         for j in range(cSize):
             dic = defaultdict(int)
