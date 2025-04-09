@@ -1,3 +1,6 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+
 tot = 0
 while True:
     S = input()
