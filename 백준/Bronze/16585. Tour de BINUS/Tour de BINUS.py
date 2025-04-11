@@ -1,0 +1,5 @@
+N = int(input())
+A = list(map(int, input().split()))
+x1, d1 = input().split()
+x2, d2 = input().split()
+print(sum(A[:int(x1)]) if d1 == 'left' else sum(A[int(x1) - 1:]), A[:int(x2)].count(0) if d2 == 'left' else A[int(x2) - 1:].count(0))
