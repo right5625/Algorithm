@@ -1,0 +1,1 @@
+print(len([1 for i, j in zip('SciComLove', input()) if i != j]))
