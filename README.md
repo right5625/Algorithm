@@ -18,6 +18,8 @@
 
 [14977 Amusement Anticipation](https://www.acmicpc.net/problem/14977) : 번역 이슈
 
+[15322 Košnja](https://www.acmicpc.net/problem/15322) : 번역 이슈
+
 [17281 ⚾](https://www.acmicpc.net/problem/17281) : 시간 초과
 
 [27240 Электричка](https://www.acmicpc.net/problem/27240) : 번역 이슈
