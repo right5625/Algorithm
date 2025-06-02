@@ -13,12 +13,12 @@ for _ in range(int(input())):
     for i in range(1, M, 2):
         left = right = 0
         for j in range(i, i + 2):
-            if mid < A[j]:
-                right += 1
-                heapq.heappush(heap2, A[j])
-            else:
-                left += 1
+            if mid > A[j]:
                 heapq.heappush(heap1, -A[j])
+                left += 1
+            else:
+                heapq.heappush(heap2, A[j])
+                right += 1
         if left == 2:
             heapq.heappush(heap2, mid)
             mid = -heapq.heappop(heap1)
