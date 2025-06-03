@@ -18,7 +18,8 @@ while heap:
     d, n = heapq.heappop(heap)
     if n not in vst:
         for i in graph[n]:
-            heapq.heappush(heap, i)
+            if i[1] not in vst:
+                heapq.heappush(heap, i)
         vst.add(n)
         result += d
 print(result)
