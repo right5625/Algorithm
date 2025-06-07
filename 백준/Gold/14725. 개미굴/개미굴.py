@@ -1,19 +1,17 @@
-def travel(cur, n, depth):
-    print('--' * depth + n)
-    if not cur:
+def travel(subTree, child, depth):
+    print('--' * depth + child)
+    if not subTree:
         return
-    for i in sorted(cur):
-        travel(cur[i], i, depth + 1)
+    for c in sorted(subTree):
+        travel(subTree[c], c, depth + 1)
 
 tree = dict()
 for _ in range(int(input())):
     K = input().split()
     cur = tree
-    for i in range(1, int(K[0])):
-        if K[i] not in cur.keys():
-            cur[K[i]] = dict()
-        cur = cur[K[i]]
-    if K[-1] not in cur.keys():
-        cur[K[-1]] = dict()
-for i in sorted(tree):
-    travel(tree[i], i, 0)
+    for i in K[1:]:
+        if i not in cur.keys():
+            cur[i] = dict()
+        cur = cur[i]
+for c in sorted(tree):
+    travel(tree[c], c, 0)
