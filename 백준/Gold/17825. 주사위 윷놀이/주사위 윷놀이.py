@@ -1,54 +1,31 @@
-graph = {'0': ['2'], '2': ['4'], '4': ['6'], '6': ['8'], '8': ['10b'],
-         '10b': ['12', '13b'], '12': ['14'], '14': ['16'], '16': ['18'], '18': ['20b'],
-         '13b': ['16b'], '16b': ['19b'], '19b': ['25'],
-         '20b': ['22', '22b'], '22': ['24'], '24': ['26'], '26': ['28'], '28': ['30b'],
-         '22b': ['24b'], '24b': ['25'],
-         '30b': ['32', '28b'], '32': ['34'], '34': ['36'], '36': ['38'], '38': ['40'],
-         '28b': ['27b'], '27b': ['26b'], '26b': ['25'],
-         '25': ['30'], '30': ['35'], '35': ['40'], '40': ['End']
-         }
-
-# horse = {i: [] for i in ['0', '2', '4', '6', '8', '10b', '12', '14', '16', '18', '13b', '16b', '19b', '20b', '22', '24', '26', '28', '22b', '24b', '30b', '32', '34', '36', '38', '28b', '27b', '26b', '25', '30', '35', '40']}
-# horse['0'] = [0, 1, 2, 3]
-
 from copy import deepcopy
 
-def play(pos, score, cnt):
-    if cnt == 10:
+board = {'0': ['2'], '2': ['4'], '4': ['6'], '6': ['8'], '8': ['10b'], '10b': ['12', '13b'], '12': ['14'], '14': ['16'], '16': ['18'], '18': ['20b'], '13b': ['16b'], '16b': ['19b'], '19b': ['25'], '20b': ['22', '22b'], '22': ['24'], '24': ['26'], '26': ['28'], '28': ['30b'], '22b': ['24b'], '24b': ['25'], '30b': ['32', '28b'], '32': ['34'], '34': ['36'], '36': ['38'], '38': ['40'], '28b': ['27b'], '27b': ['26b'], '26b': ['25'], '25': ['30'], '30': ['35'], '35': ['40'], '40': ['end']}
+def play(cur_pos_horses, score, turn):
+    if turn == 10:
         global result
         result = max(result, score)
         return
-
-    newPos = deepcopy(pos)
+    next_pos_horses = deepcopy(cur_pos_horses)
     for i in range(4):
-        if newPos[i] == 'End':
+        if cur_pos_horses[i] == 'end':
             continue
-
-        if newPos[i][-1] == 'b' and len(graph[newPos[i]]) == 2:
-            cur = graph[newPos[i]][1]
+        if cur_pos_horses[i][-1] == 'b' and len(board[cur_pos_horses[i]]) == 2:
+            cur = board[cur_pos_horses[i]][1]
         else:
-            cur = graph[newPos[i]][0]
-
-        for _ in range(A[cnt] - 1):
-            if cur == 'End':
+            cur = board[cur_pos_horses[i]][0]
+        for _ in range(dice[turn] - 1):
+            if cur == 'end':
                 break
-            cur = graph[cur][0]
+            cur = board[cur][0]
+        next_pos_horses[i] = cur
+        if cur == 'end':
+            play(next_pos_horses, score, turn + 1)
+        elif cur not in cur_pos_horses:
+            play(next_pos_horses, score + int(next_pos_horses[i][:-1] if next_pos_horses[i][-1] == 'b' else next_pos_horses[i]), turn + 1)
+        next_pos_horses[i] = cur_pos_horses[i]
 
-        newPos[i] = cur
-
-    for i in range(4):
-        if newPos[i] == 'End':
-            pos[i], newPos[i] = newPos[i], pos[i]
-            play(pos, score, cnt + 1)
-            pos[i], newPos[i] = newPos[i], pos[i]
-        elif newPos[i] in pos:
-            continue
-        else:
-            pos[i], newPos[i] = newPos[i], pos[i]
-            play(pos, score + int(pos[i][:-1] if pos[i][-1] == 'b' else pos[i]), cnt + 1)
-            pos[i], newPos[i] = newPos[i], pos[i]
-
-A = list(map(int, input().split()))
+dice = list(map(int, input().split()))
 result = 0
 play(['0'] * 4,  0, 0)
 print(result)
