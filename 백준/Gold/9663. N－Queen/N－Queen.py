@@ -4,19 +4,19 @@ def queen(r):
         result += 1
         return
     for c in range(N):
-        if c not in col and r + c not in diag1 and r - c not in diag2:
-            col.add(c)
-            diag1.add(r + c)
-            diag2.add(r - c)
+        if not col[c] and not diag1[r + c] and not diag2[r - c]:
+            col[c] = True
+            diag1[r + c] = True
+            diag2[r - c] = True
             queen(r + 1)
-            col.remove(c)
-            diag1.remove(r + c)
-            diag2.remove(r - c)
+            col[c] = False
+            diag1[r + c] = False
+            diag2[r - c] = False
 
 N = int(input())
 result = 0
-col = set()
-diag1 = set()
-diag2 = set()
+col = [False] * N
+diag1 = [False] * (N * 2)
+diag2 = [False] * (N * 2)
 queen(0)
 print(result)
