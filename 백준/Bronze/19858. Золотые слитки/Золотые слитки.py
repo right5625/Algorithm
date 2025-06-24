@@ -2,41 +2,17 @@ x1, x2, x3 = map(int, input().split())
 if max(x1, x2, x3) - sum([x1, x2, x3]) == -max(x1, x2, x3):
     print(0)
 else:
-    if abs(x2 - x3) <= x1 and abs(x2 - x3) % 2 == x1 % 2:
-        result1 = result2 = 0
-        r = x1
-        if x2 < x3:
-            result1 = x3 - x2
-            r -= x3 - x2
-        elif x2 > x3:
-            result2 = x2 - x3
-            r -= x2 - x3
-        result1 += r // 2
-        result2 += r // 2
-        print(f'1\n{result1} {result2}')
-    elif abs(x1 - x3) <= x2 and abs(x1 - x3) % 2 == x2 % 2:
-        result1 = result2 = 0
-        r = x2
-        if x1 < x3:
-            result1 = x3 - x1
-            r -= x3 - x1
-        elif x1 > x3:
-            result2 = x1 - x3
-            r -= x1 - x3
-        result1 += r // 2
-        result2 += r // 2
-        print(f'2\n{result1} {result2}')
-    elif abs(x1 - x2) <= x3 and abs(x1 - x2) % 2 == x3 % 2:
-        result1 = result2 = 0
-        r = x3
-        if x1 < x2:
-            result1 = x2 - x1
-            r -= x2 - x1
-        elif x1 > x2:
-            result2 = x1 - x2
-            r -= x1 - x2
-        result1 += r // 2
-        result2 += r // 2
-        print(f'3\n{result1} {result2}')
-    else:
+    result1 = result2 = 0
+    for i in range(3):
+        x = [x1, x2, x3]
+        x = [x.pop(i)] + x
+        if abs(x[1] - x[2]) <= x[0] and abs(x[1] - x[2]) % 2 == x[0] % 2:
+            rem = x[0]
+            result1 = abs(x[1] - x[2])
+            rem -= abs(x[1] - x[2])
+            result1 += rem // 2
+            result2 += rem // 2
+            print(f'{i + 1}\n{result1} {result2}')
+            break
+    if result1 == result2 == 0:
         print(-1)
