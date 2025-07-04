@@ -26,6 +26,8 @@
 
 [17897 Pea Soup and Pancakes](https://www.acmicpc.net/problem/17897) : 번역 이슈
 
+[19766 Доставка футболок](https://www.acmicpc.net/problem/19766) : 번역 이슈
+
 [27240 Электричка](https://www.acmicpc.net/problem/27240) : 번역 이슈
 
 [29412 Огни светофора](https://www.acmicpc.net/problem/29412) : 번역 이슈
