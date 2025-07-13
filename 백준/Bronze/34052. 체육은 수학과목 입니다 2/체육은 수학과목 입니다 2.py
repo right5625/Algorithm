@@ -1,0 +1,1 @@
+print('Yes' if sum(int(input()) for _ in range(4)) <= 1500 else 'No')
