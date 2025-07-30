@@ -4,8 +4,8 @@ while True:
     N = int(input())
     if N == 0:
         break
-    result = 0
     l, r, s = 1, 2, 3
+    result = 0
     while l < r <= ceil(N / 2):
         if s < N:
             r += 1
