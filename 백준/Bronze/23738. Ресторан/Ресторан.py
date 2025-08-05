@@ -1,0 +1,1 @@
+print(input().replace('B', 'v').replace('E', 'ye').replace('H', 'n').replace('P', 'r').replace('C', 's').replace('Y', 'u').replace('X', 'h').lower())
