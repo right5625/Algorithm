@@ -36,6 +36,8 @@
 
 [21529 Кастинг](https://www.acmicpc.net/problem/21529) : 번역은 되었으나 풀이를 참고
 
+[26201 Finding Maximal Non-Trivial Monotones](https://www.acmicpc.net/problem/26201) : 번역은 되었으나 풀이를 참고
+
 [27240 Электричка](https://www.acmicpc.net/problem/27240) : 번역 이슈
 
 [29412 Огни светофора](https://www.acmicpc.net/problem/29412) : 번역 이슈
