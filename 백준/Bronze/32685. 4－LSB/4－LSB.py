@@ -1,0 +1,1 @@
+print(str(int(bin(int(input()))[2:].zfill(4)[-4:] + bin(int(input()))[2:].zfill(4)[-4:] + bin(int(input()))[2:].zfill(4)[-4:], 2)).zfill(4))
