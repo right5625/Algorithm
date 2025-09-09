@@ -1,0 +1,1 @@
+print(int(input()) * min(int(input()), 1) * int(input()))
