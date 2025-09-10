@@ -1,0 +1,1 @@
+print(int(input()) * 5280 // int(input()))
