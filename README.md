@@ -42,6 +42,8 @@
 
 [29412 Огни светофора](https://www.acmicpc.net/problem/29412) : 번역 이슈
 
+[34346 대각선](https://www.acmicpc.net/problem/34346) : 문제 이해 X
+
 ---
 
 자바 한정 검색/AI로 해결
