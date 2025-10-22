@@ -44,6 +44,8 @@
 
 [34210 A + B Queries](https://www.acmicpc.net/problem/34210) : 다른 언어 문제
 
+[34298 Closing Early](https://www.acmicpc.net/problem/34298) : 번역 이슈
+
 [34346 대각선](https://www.acmicpc.net/problem/34346) : 문제 이해 X
 
 ---
