@@ -42,6 +42,8 @@
 
 [29412 Огни светофора](https://www.acmicpc.net/problem/29412) : 번역 이슈
 
+[34161 OO0OO](https://www.acmicpc.net/problem/34161) : 넌센스
+
 [34210 A + B Queries](https://www.acmicpc.net/problem/34210) : 다른 언어 문제
 
 [34298 Closing Early](https://www.acmicpc.net/problem/34298) : 번역 이슈
