@@ -50,6 +50,8 @@
 
 [34346 대각선](https://www.acmicpc.net/problem/34346) : 문제 이해 X
 
+[34644 Ten Player Bingo](https://www.acmicpc.net/problem/34644) : 번역 이슈
+
 ---
 
 자바 한정 검색/AI로 해결
