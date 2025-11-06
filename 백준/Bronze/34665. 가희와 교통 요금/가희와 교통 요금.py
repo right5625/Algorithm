@@ -1,0 +1,1 @@
+print(0 if input() == input() else 1550)
