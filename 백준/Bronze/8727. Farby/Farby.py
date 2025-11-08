@@ -1,0 +1,3 @@
+c, z, n = map(int, input().split())
+p = [int(input()) for _ in range(6)]
+print(f'{max(-(int(c - p[4] - (p[3] + p[5]) * 0.5) if c - p[4] - (p[3] + p[5]) * 0.5 == int(c - p[4] - (p[3] + p[5]) * 0.5) else c - p[4] - (p[3] + p[5]) * 0.5), 0)} {max(-(int(z - p[0] - (p[1] + p[5]) * 0.5) if z - p[0] - (p[1] + p[5]) * 0.5 == int(z - p[0] - (p[1] + p[5]) * 0.5) else z - p[0] - (p[1] + p[5]) * 0.5), 0)} {max(-(int(n - p[2] - (p[1] + p[3]) * 0.5) if n - p[2] - (p[1] + p[3]) * 0.5 == int(n - p[2] - (p[1] + p[3]) * 0.5) else n - p[2] - (p[1] + p[3]) * 0.5), 0)}')
