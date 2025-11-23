@@ -24,8 +24,7 @@ impossible_edges = [False] * (M + 1)
 result = [0] * K
 for i in range(K):
     parent = [j for j in range(N + 1)]
-    min_weight = float('inf')
-    use = score = 0
+    min_weight = use = score = 0
     for weight in range(1, M + 1):
         if impossible_edges[weight]:
             continue
@@ -34,7 +33,8 @@ for i in range(K):
             union(vertex1, vertex2)
             score += weight
             use += 1
-            min_weight = min(min_weight, weight)
+            if min_weight == 0:
+                min_weight = weight
     if use < N - 1:
         break
     impossible_edges[min_weight] = True
