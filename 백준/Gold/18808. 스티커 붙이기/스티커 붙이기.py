@@ -5,20 +5,12 @@ for _ in range(K):
     sticker = [list(map(int, input().split())) for _ in range(R)]
     attach = False
     for _ in range(4):
-        find_start = False
-        for sticker_r in range(R):
-            for sticker_c in range(C):
-                if sticker[sticker_r][sticker_c] == 1:
-                    sticker_start_r, sticker_start_c = sticker_r, sticker_c
-                    find_start = True
-                    break
-            if find_start:
-                break
         sticker_pos = []
         for sticker_r in range(R):
             for sticker_c in range(C):
                 if sticker[sticker_r][sticker_c] == 1:
                     sticker_pos.append([sticker_r, sticker_c])
+        sticker_start_r, sticker_start_c = sticker_pos[0]
         for r in range(N):
             for c in range(M):
                 if notebook[r][c] == 0:
