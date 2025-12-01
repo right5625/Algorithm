@@ -1,0 +1,1 @@
+print({'F': 'Foundation', 'C': 'Claves', 'V': 'Veritas', 'E': 'Exploration'}[input()[0]])
