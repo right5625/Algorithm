@@ -28,6 +28,8 @@
 
 [17897 Pea Soup and Pancakes](https://www.acmicpc.net/problem/17897) : 번역 이슈
 
+[17931 Greedily Increasing Subsequence](https://www.acmicpc.net/problem/17931) : 번역은 되었으나 풀이를 참고
+
 [19766 Доставка футболок](https://www.acmicpc.net/problem/19766) : 번역 이슈
 
 [19772 Звезды на погонах](https://www.acmicpc.net/problem/19772) : 번역 이슈
