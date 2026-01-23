@@ -1,14 +1,9 @@
 n, a, b = map(int, input().split())
+A = [list(map(int, input().split())) for _ in range(n)]
 result = 0
-a_arr, b_arr = [], []
-for _ in range(n):
-    ai, bi = map(int, input().split())
-    a_arr.append(ai)
-    b_arr.append(bi)
-    result = max(result, a / ai, b / bi)
 for i in range(n):
+    result = max(result, a / A[i][0], b / A[i][1])
     for j in range(n):
-        if i == j:
-            continue
-        result = max(result, a / a_arr[i] + b / b_arr[j])
+        if i != j:
+            result = max(result, a / A[i][0] + b / A[j][1])
 print(f'{result:.2f}')
