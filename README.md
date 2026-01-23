@@ -40,6 +40,8 @@
 
 [21144 Missing Number](https://www.acmicpc.net/problem/21144) : 번역은 되었으나 풀이를 참고
 
+[21432 Нефть](https://www.acmicpc.net/problem/21432) : 번역 이슈
+
 [21529 Кастинг](https://www.acmicpc.net/problem/21529) : 번역은 되었으나 풀이를 참고
 
 [22389 一般化うるう年](https://www.acmicpc.net/problem/22389) : 번역 이슈
