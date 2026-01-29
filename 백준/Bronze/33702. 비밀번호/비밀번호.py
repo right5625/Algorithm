@@ -1,0 +1,1 @@
+print(0 if int(input()) % 2 == 0 else 8)
