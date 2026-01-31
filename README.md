@@ -46,6 +46,8 @@
 
 [22389 一般化うるう年](https://www.acmicpc.net/problem/22389) : 번역 이슈
 
+[24367 АСАНСЬОР](https://www.acmicpc.net/problem/24367) : 번역은 되었으나 풀이를 참고
+
 [24577 Espresso!](https://www.acmicpc.net/problem/24577) : 번역 이슈
 
 [26201 Finding Maximal Non-Trivial Monotones](https://www.acmicpc.net/problem/26201) : 번역은 되었으나 풀이를 참고
