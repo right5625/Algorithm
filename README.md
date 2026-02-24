@@ -74,6 +74,8 @@
 
 [35202 Koehandel](https://www.acmicpc.net/problem/35202) : 번역 이슈
 
+[35213 Jacobi Numbers](https://www.acmicpc.net/problem/35213) : 번역 이슈
+
 ---
 
 자바 한정 검색/AI로 해결
