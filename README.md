@@ -8,6 +8,8 @@
 
 [2615 오목](https://www.acmicpc.net/problem/2615) : 반례
 
+[3631 Cutting a Block](https://www.acmicpc.net/problem/3631) : 번역 이슈
+
 [4201 Snakes and Ladders](https://www.acmicpc.net/problem/4201) : 번역 이슈
 
 [4855 Tire Dimensions](https://www.acmicpc.net/problem/4855) :  번역 이슈
