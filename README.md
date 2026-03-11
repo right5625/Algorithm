@@ -46,6 +46,8 @@
 
 [21529 Кастинг](https://www.acmicpc.net/problem/21529) : 번역은 되었으나 풀이를 참고
 
+[22188 Тарифы](https://www.acmicpc.net/problem/22188) : 번역 이슈
+
 [22389 一般化うるう年](https://www.acmicpc.net/problem/22389) : 번역 이슈
 
 [24367 АСАНСЬОР](https://www.acmicpc.net/problem/24367) : 번역은 되었으나 풀이를 참고
