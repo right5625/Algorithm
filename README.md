@@ -50,6 +50,8 @@
 
 [22389 一般化うるう年](https://www.acmicpc.net/problem/22389) : 번역 이슈
 
+[22825 Fermat's Last Theorem](https://www.acmicpc.net/problem/22825) : 번역 이슈
+
 [24335 ЧАСОВНИК](https://www.acmicpc.net/problem/24335) : 번역 이슈
 
 [24367 АСАНСЬОР](https://www.acmicpc.net/problem/24367) : 번역은 되었으나 풀이를 참고
