@@ -56,6 +56,8 @@
 
 [24367 АСАНСЬОР](https://www.acmicpc.net/problem/24367) : 번역은 되었으나 풀이를 참고
 
+[24386 КЛЕЧКИ](https://www.acmicpc.net/problem/24386) : 번역 이슈
+
 [24577 Espresso!](https://www.acmicpc.net/problem/24577) : 번역 이슈
 
 [26201 Finding Maximal Non-Trivial Monotones](https://www.acmicpc.net/problem/26201) : 번역은 되었으나 풀이를 참고
