@@ -1,0 +1,1 @@
+print('Solve harder problems' if int(input()) in [1, 3, 4, 5, 9, 10] else 'Think before submission')
