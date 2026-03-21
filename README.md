@@ -88,6 +88,8 @@
 
 [35213 Jacobi Numbers](https://www.acmicpc.net/problem/35213) : 번역 이슈
 
+[35290 SUAPC 2025 Summer](https://www.acmicpc.net/problem/35290) : 풀이 참고
+
 ---
 
 자바 한정 검색/AI로 해결
