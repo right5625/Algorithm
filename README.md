@@ -62,6 +62,8 @@
 
 [24577 Espresso!](https://www.acmicpc.net/problem/24577) : 번역 이슈
 
+[24747 Letterle](https://www.acmicpc.net/problem/24747) : 번역은 되었으나 풀이를 참고
+
 [24767 Beehives](https://www.acmicpc.net/problem/24767) : 번역 이슈
 
 [25053 Organizing SWERC](https://www.acmicpc.net/problem/25053) : 번역 이슈
