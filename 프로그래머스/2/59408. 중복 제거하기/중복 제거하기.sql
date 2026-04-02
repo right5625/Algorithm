@@ -1,4 +1,4 @@
-select count(NAME) as 'count'
+select count(*) as 'count'
 from (
     select distinct NAME
     from ANIMAL_INS
