@@ -1,3 +1,6 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+
 S = list(input())
 for _ in range(int(input())):
     s = list(input())
