@@ -72,6 +72,8 @@
 
 [27214 Сетка](https://www.acmicpc.net/problem/27214) : 번역 이슈
 
+[27226 Лестница из чисел](https://www.acmicpc.net/problem/27226) : 번역 이슈
+
 [27240 Электричка](https://www.acmicpc.net/problem/27240) : 번역 이슈
 
 [29054 Цвета](https://www.acmicpc.net/problem/29054) : 번역은 되었으나 풀이를 참고
