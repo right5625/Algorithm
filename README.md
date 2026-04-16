@@ -50,6 +50,8 @@
 
 [22389 一般化うるう年](https://www.acmicpc.net/problem/22389) : 번역 이슈
 
+[22656 Princess' Gamble](https://www.acmicpc.net/problem/22656) : 번역 이슈
+
 [22825 Fermat's Last Theorem](https://www.acmicpc.net/problem/22825) : 번역 이슈
 
 [24295 ОБЛЕКЛА НА УЧЕБНИЦИ](https://www.acmicpc.net/problem/24295) : 번역 이슈
