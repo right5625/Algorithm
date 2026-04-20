@@ -82,6 +82,8 @@
 
 [27240 Электричка](https://www.acmicpc.net/problem/27240) : 번역 이슈
 
+[27256 Новое слово](https://www.acmicpc.net/problem/27256) : 번역 이슈
+
 [29054 Цвета](https://www.acmicpc.net/problem/29054) : 번역은 되었으나 풀이를 참고
 
 [29412 Огни светофора](https://www.acmicpc.net/problem/29412) : 번역 이슈
