@@ -78,6 +78,8 @@
 
 [26362 Adria](https://www.acmicpc.net/problem/26362) : 번역 이슈
 
+[26938 Lamps](https://www.acmicpc.net/problem/26938) : 번역 이슈
+
 [27101 Metric Matrices](https://www.acmicpc.net/problem/27101) : 번역은 되었으나 풀이를 참고
 
 [27214 Сетка](https://www.acmicpc.net/problem/27214) : 번역 이슈
