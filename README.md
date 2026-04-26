@@ -92,6 +92,8 @@
 
 [28915 Книжная полка](https://www.acmicpc.net/problem/28915) : 번역 이슈
 
+[28966 Доктор Стрэндж и перестановка](https://www.acmicpc.net/problem/28966) : 번역 이슈
+
 [29054 Цвета](https://www.acmicpc.net/problem/29054) : 번역은 되었으나 풀이를 참고
 
 [29412 Огни светофора](https://www.acmicpc.net/problem/29412) : 번역 이슈
