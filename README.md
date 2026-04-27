@@ -84,6 +84,8 @@
 
 [27214 Сетка](https://www.acmicpc.net/problem/27214) : 번역 이슈
 
+[27220 Ромб](https://www.acmicpc.net/problem/27220) : 번역 이슈
+
 [27226 Лестница из чисел](https://www.acmicpc.net/problem/27226) : 번역 이슈
 
 [27240 Электричка](https://www.acmicpc.net/problem/27240) : 번역 이슈
