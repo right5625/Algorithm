@@ -1,13 +1,12 @@
 k = int(input())
-s = input().split()
-cur = ''
-for i in s:
-    if not cur:
-        cur += i
-    elif len(cur + i) + 1 <= k:
-        cur += ' ' + i
+cur, cnt = [], 0
+for i in input().split():
+    if len(cur) + cnt + len(i) <= k:
+        cur.append(i)
+        cnt += len(i)
     else:
-        print(cur)
-        cur = i
+        print(*cur)
+        cur = [i]
+        cnt = len(i)
 if cur:
-    print(cur)
+    print(*cur)
